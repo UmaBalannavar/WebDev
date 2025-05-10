@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles Demonstration</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h2>Welcome to My Styled Page</h2>
+    <h3>Subheading</h3>
+    <div class="div-style">
+        <p>This paragraph is a normal text paragraph to demonstrate the p tag styling. The first line of this paragraph will be bold and light gray.</p>
+        <p>This is another paragraph.</p>
+        <span>This text is italicized.</span>
+        <br>
+        <time datetime="2023-10-23">October 23, 2023</time>
+        <br>
+        <img src="C:\Users\DELL\OneDrive\Desktop\WTL#\hjhj.png" width="500" height="300">
+    </div>
+    <hr>
+    <a href="https://vtu.ac.in/="Example Link">VTU Website</a>
+</body>
+</html>

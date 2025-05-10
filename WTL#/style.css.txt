@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Tag Selector for h2 */
+h2 {
+    color: #2c3e50; /* Dark blue */
+    font-family: 'Arial', sans-serif; /* Arial font */
+    border-bottom: 2px solid #3498db; /* Blue border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+/*  h2: This selector targets all <h2> elements.
+color: Sets the text color to dark blue.
+font-family: Specifies the font to use (Arial) with a fallback to any sans-serif font.
+border-bottom: Adds a solid blue border at the bottom of the header.
+padding-bottom: Adds space inside the bottom of the header.
+margin-bottom: Adds space below the header. */
+
+/* Tag Selector for h3 */
+h3 {
+    color: #2980b9; /* Lighter blue */
+    font-family: 'Verdana', sans-serif; /* Verdana font */
+    margin: 15px 0; /* Margin above and below */
+}
+/*   h3: Targets all <h3> elements.
+color: Sets the text color to a lighter blue.
+font-family: Specifies the font to use (Verdana).
+margin: Adds 15 pixels of space above and below the heading.  */
+/* Universal Selector for hr */
+hr {
+    border: 0;
+    border-top: 2px solid #bdc3c7; /* Light gray top border */
+    margin: 20px 0; /* Margin above and below */
+}
+/* hr: Targets horizontal rule elements.
+border: Resets the border to none.
+border-top: Adds a solid light gray border on top.
+margin: Adds space above and below the line.*/
+
+/* Tag Selector for p */
+p {
+    color: #34495e; /* Grayish-blue */
+    font-size: 1em; /* Regular font size */
+    line-height: 1.5; /* Line height */
+}
+
+/* Class Selector for div */
+.div-style {
+    background-color: #f9ebc3; /* Light yellow */
+    padding: 15px; /* Padding inside div */
+    border-radius: 5px; /* Rounded corners */
+}
+/* .div-style: Targets any <div> element with the class div-style.
+background-color: Sets the background color to light yellow.
+padding: Adds space inside the <div>.
+border-radius: Rounds the corners of the <div>. */
+/* Tag Selector for span */
+span {
+    color: #16a085; /* Teal color */
+    font-style: italic; /* Italic */
+}
+
+/* Tag Selector for time */
+time {
+    font-family: 'Courier New', monospace; /* Monospace font */
+    color: #9b59b6; /* Purple */
+    display: block; /* Block display */
+    margin: 10px 0; /* Margin above and below */
+}
+
+/* Class Selector for img */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Attribute Selector for a */
+a {
+    color: #2980b9; /* Blue color */
+    text-decoration: none; /* No underline */
+}
+
+/* Pseudo-class Selector for a:hover */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #3498db; /* Change color on hover */
+}
+

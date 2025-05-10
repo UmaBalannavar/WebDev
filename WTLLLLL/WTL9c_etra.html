@@ -1,0 +1,129 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Change on Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .color-box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      margin: 20px auto;
+      transition: background-color 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Change Color on Animation</h1>
+    <div id="colorBox" class="color-box"></div>
+    <button id="changeColorButton">Change Color</button>
+  </div> -->
+
+  <!-- Include jQuery library -->
+  <!-- <script src="jquery-3.6.0.min.js.js"></script> -->
+   <!-- Make sure this is the correct path -->
+  <!-- <script>
+    $(document).ready(function() {
+      let isGreen = false; // Track the current color state -->
+
+      <!-- $('#changeColorButton').click(function() {
+        $('#colorBox').animate({ 
+          width: '150px',
+          height: '150px'
+        }, 1000, function() {
+          // Toggle the background color
+          if (isGreen) {
+            $(this).css('background-color', '#3498db'); // Back to blue
+          } else {
+            $(this).css('background-color', '#2ecc71'); // Change to green
+          }
+          isGreen = !isGreen; // Flip the state
+        });
+      });
+    });
+  </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Change on Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .color-box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      margin: 20px auto;
+      transition: background-color 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Change Color and Size</h1>
+    <div id="colorBox" class="color-box"></div>
+    <button id="changeColorButton">Change Color</button>
+  </div>
+
+  <!-- Include jQuery library -->
+  <script src="jquery-3.6.0.min.js.js"></script> <!-- Make sure this is the correct path -->
+  <script>
+    $(document).ready(function() {
+      let isGreen = false; // Track the current state
+
+      $('#changeColorButton').click(function() {
+        if (isGreen) {
+          // Restore to original size and color
+          $('#colorBox').animate({ 
+            width: '100px',
+            height: '100px'
+          }, 1000, function() {
+            $(this).css('background-color', '#3498db'); // Back to blue
+          });
+        } else {
+          // Change to larger size and green color
+          $('#colorBox').animate({ 
+            width: '150px',
+            height: '150px'
+          }, 1000, function() {
+            $(this).css('background-color', '#2ecc71'); // Change to green
+          });
+        }
+        isGreen = !isGreen; // Toggle state
+      });
+    });
+  </script>
+</body>
+</html>
+

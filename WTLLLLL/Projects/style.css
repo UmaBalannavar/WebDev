@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family : 'Nuntio Sans',sans-serif
+}
+nav ul
+{   
+    align-items: center;
+    display:flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{ 
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
